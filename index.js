@@ -3,7 +3,7 @@ scanButton= document.getElementById("scanbutton");
 window.onload=init;
 function init()
 {
-    document.getElementById("console").innerHTML+="init";
+   // document.getElementById("console").innerHTML+="init";
 }
 
 function nfcAction()
