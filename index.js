@@ -1,6 +1,6 @@
 scanButton= document.getElementById("scanbutton");
 
-window.onload=init;
+
 function init()
 {
    // document.getElementById("console").innerHTML+="init";
@@ -8,7 +8,7 @@ function init()
 
 function nfcAction()
 {
-   document.document.getElementById("console").innerHTML+="nfcAction ";
+   document.document.getElementById("console").innerHTML+="nfcAction";
     const ndef = new NDEFReader();
     ndef.scan().then(() => {
       console.log("Scan started successfully.");
