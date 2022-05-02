@@ -8,7 +8,7 @@ function init()
 
 function nfcAction()
 {
-   document.document.getElementById("console").innerHTML+="nfcAction";
+   document.document.getElementById("console").innerHTML+="nfcAction ";
     const ndef = new NDEFReader();
     ndef.scan().then(() => {
       console.log("Scan started successfully.");
